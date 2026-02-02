@@ -1,11 +1,7 @@
 body {
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial;
+    background: linear-gradient(to right, #43cea2, #185a9d);
 }
+
 
 .login-container {
     background: white;
@@ -13,7 +9,7 @@ body {
     width: 320px;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 input {
@@ -25,16 +21,23 @@ input {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background: #4facfe;
-    color: white;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: pointer;
+    background: #43cea2;
+    transition: 0.3s;
 }
 
 button:hover {
-    background: #00c6ff;
+    background: #185a9d;
+    transform: scale(1.05);
+}
+
+.forgot {
+    display: block;
+    margin: 10px 0;
+    color: #185a9d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot:hover {
+    text-decoration: underline;
 }
